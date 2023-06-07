@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="icon" type="img/x-icon" href="/image/olams_logo.jpeg" />
+
+    <title>olafoods</title>
+  </head>
+  <body>
+    
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/image/olams_logo2.jpeg" alt=""></a>
+          <button class="navbar-toggler d-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <div class="nav-item">
+            <a class="nav-link active d-block d-lg-none" aria-current="page" href="https://wa.me/c/2348136888700">
+              <img src="/image/ngn.png" alt="" width="25px"> &nbsp; 🇳🇬🇳 &nbsp;
+              <span><i class="fa-brands fa-whatsapp"></i></span>
+              <span class="me-3">Chat Us</span>
+            </a>
+          </div>
+        
+          <form class="d-flex">
+              <input class="form-control me-2 d-none d-md-block" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success d-none d-md-block" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <a class="nav-link d-none d-lg-block" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <!-- <span class="d-none d-lg-block"><img src="/image/ngn.png"  alt="" width="25px"> &nbsp; 🇳🇬🇳</span> -->
+                    </a>
+                </li>
+                <li class="nav-item">
+                  <!-- <a class="nav-link" href="#">Login</a> -->
+                </li>
+                
+                <li class="nav-item">
+                  <!-- <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"><i class="fa-solid fa-cart-shopping"></i></a> -->
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="https://wa.me/c/2348136888700">
+                    <span><i class="fa-brands fa-whatsapp"></i></span>
+                    <span class="me-3">Chat with us</span>
+                  </a>
+                </li>
+            </ul>
+            
+          </div>
+
+          
+          
+        </div>
+      </nav>
+    <!-- header done -->
+
+    <!-- banner -->
+    <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active h-100">
+            <img src="/image/IMG-20230606-WA0080.jpg" class="d-block w-100 h-100" alt="...">
+            <!-- <img src="/img/olams_logo2.jpeg" class="d-block w-100 h-100" alt="..."> -->
+            <!-- <img src="/img/olams_logo.jpeg" class="d-block w-100 h-100" alt="..."> -->
+          </div>
+        </div>
+    </div>
+    <!-- banner done d-none d-md-block -->
+
+    <!-- content -->
+    <div class="container mt-5 mb-5 p-3 jesus">
+        <div class="row justify-content-center text-center" id="myBtnContainer">
+            <div class="col-3"><h5>Collections</h5></div>
+            <div class="col-3 col-md-1 yes btn active" onclick="filterSelection('all')">All</div>
+            <div class="col-3 col-md-1 yes btn" onclick="filterSelection('spices')">Spices</div>
+            <div class="col-3 col-md-1 yes btn" onclick="filterSelection('seeds')">Seeds</div>
+            <div class="col-3 col-md-1 yes btn" onclick="filterSelection('food')">Food Stuffs</div>
+            <div class="col-3 col-md-1 yes btn" onclick="filterSelection('oil')">Oil</div>
+            <div class="col-3 col-md-2 yes btn" onclick="filterSelection('vegetable')">Dried Vegetables</div>
+            <div class="col-3 col-md-1 yes btn" onclick="filterSelection('meat')">Dried meat</div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center text-center gy-4">
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card filterDiv food">
+                    <img src="/image/spicy 01.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Maggie</h5>
+                      <!-- <p class="card-text">#6000</p>
+                      <a href="#" class="btn gaxe p-3">Add to cart</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card filterDiv spices">
+                    <img src="/image/rice_01.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bag of Rice</h5>
+                      <!-- <p class="card-text">#3500</p>
+                      <a href="#" class="btn gaxe p-3">Add to cart</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card filterDiv oil">
+                    <img src="/image/oil_01.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Palm Oil 50L</h5>
+                      <!-- <p class="card-text">#8500</p>
+                      <a href="#" class="btn gaxe p-3">Add to cart</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card filterDiv food">
+                    <img src="/image/beans_01.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Beans</h5>
+                      <!-- <p class="card-text">#3500</p>
+                      <a href="#" class="btn gaxe p-3">Add to cart</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card filterDiv seeds">
+                    <img src="/image/spicy_05.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Maggie</h5>
+                      <!-- <p class="card-text">#9500</p>
+                      <a href="#" class="btn gaxe p-3">Add to cart</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card filterDiv vegetable">
+                    <img src="/image/dried_iru3.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Dried Ugu 300g</h5>
+                      <!-- <p class="card-text">#4,500</p>
+                      <a href="#" class="btn gaxe p-3">Add to cart</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card filterDiv vegetable">
+                    <img src="/image/chilli_pepper.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Chilli Pepper (500g)</h5>
+                      <!-- <p class="card-text">#4,500</p>
+                      <a href="#" class="btn gaxe p-3">Add to cart</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card filterDiv meat">
+                    <img src="/image/palmoil.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Palm Oil</h5>
+                      <!-- <p class="card-text">#20,000</p>
+                      <a href="#" class="btn gaxe p-3">Add to cart</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card filterDiv meat">
+                    <img src="/image/rice_02.jpeg" class=" w-100 card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Foreign Rice</h5>
+                      <!-- <p class="card-text">#6,000</p>
+                      <a href="#" class="btn gaxe p-3">Add to cart</a> -->
+                    </div>
+                </div> 
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card filterDiv food">
+                    <img src="/image/spicy_06.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Spicy</h5>
+                      <!-- <p class="card-text">#2,000</p>
+                      <a href="#" class="btn gaxe p-3">Add to cart</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card filterDiv meat">
+                    <img src="/image/spicy_03.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Spicies</h5>
+                      <!-- <p class="card-text">#35,000</p>
+                      <a href="#" class="btn gaxe p-3">Add to cart</a> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card filterDiv meat">
+                    <img src="/image/spicy 02.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Spices maggie</h5>
+                      <!-- <p class="card-text">#15,000</p>
+                      <a href="#" class="btn gaxe p-3">Add to cart</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- oil -->
+   
+    <!-- oil done -->
+
+
+    <!-- <div class="container mb-5 mt-5">
+        <div class="row justify-content-center text-center">
+            <div class="col-5">
+                <a href="" class="btn sam p-2">Load more</a>
+            </div>
+        </div>
+    </div> -->
+    <!-- content done -->
+
+    <!-- footer -->
+    <div class="footer mt-5 p-3">
+        <div class="container-fluid pb-5">
+            <div class="row justify-content-center">
+                <div class="col-10 col-md-5">
+                    <h6 class="text-uppercase">Contact US</h6>
+                    <ul class="list-unstyled">
+                      <li class="mb-3">
+                        <span class="pe-2"><i class="fa-solid fa-phone"></i></span>
+                        <span><a href="tel:+23408089467689">08089467689</a></span>
+                      </li>
+                      <li class="mb-3">
+                        <span class="pe-2"><i class="fa-solid fa-envelope"></i></span>
+                        <span><a href="mail:Oluwasetemi123@gmail.com">Oluwasetemi123@gmail.com</a></span>
+                      </li>
+                    </ul>
+
+                    <div class="mt-2">
+                        <span class="pe-2"><i class="fa-solid fa-location-dot"></i></span>
+                        <span> Lagos state, Nigeria.</span>
+                    </div>
+                </div>
+                <div class="col-10 col-md-5">
+                    <h6>Signup for discount and updates</h6>
+                    <form action="">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control p-3" placeholder="Enter your phone number or email address" aria-label="Enter your phone number or email address" aria-describedby="button-addon2">
+                            <button class="btn foot p-3" type="button" id="button-addon2">Sign up</button>
+                        </div>
+                    </form>
+                    <div class="help pt-2">
+                        <a href="">About Us</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer2 border-top pt-3">
+            <p>2023. Powered By Auracule &#128154;</p>
+        </div>
+    </div>
+    <!-- footer done -->
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="/js/index.js"></script>
+  </body>
+</html>

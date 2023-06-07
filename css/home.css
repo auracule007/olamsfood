@@ -1,0 +1,194 @@
+
+
+.navbar{
+    background: white;
+    box-shadow: 1px 2px 2px 2px 1px solid silver;
+    padding: 1.5rem;
+}
+.navbar .navbar-brand img{
+    width: 5.5rem;
+    padding-right: 2rem;
+}
+.navbar form{
+    width: 35%;
+}
+.navbar .nav-item .nav-link{
+    color: black;
+    /* color: black; */
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-left: 2.3rem;
+}
+.yes:hover{
+    color: white;
+    background: black;
+    /* padding: .2rem; */
+    border-radius: 5px;
+}
+.card{
+    background: transparent;
+    border: none;
+    
+    /* outline: ; */
+}
+.card img{
+    width: 100%;
+    height: 18rem;
+    /* height: 100%; */
+}
+/* .card .card-body{
+    background: ;
+} */
+.gaxe{
+    width: 100%;
+    outline: 2px solid black;
+}
+.gaxe:focus{
+    width: 100%;
+    outline: 2px solid black;
+}
+.gaxe:hover{
+    background: black;
+    color: white;
+}
+.sam{
+    width: 50%;
+    outline: 2px solid black;
+}
+.sam:focus{
+    width: 50%;
+    outline: 2px solid black;
+}
+.sam:hover{
+    background: rgb(74, 34, 6);
+    color: white;
+}
+.footer{
+    background: black;
+    color: white;
+    padding: 1.2rem;
+}
+.foot{
+    background: black;
+    color: white;
+}
+.footer2{
+    padding-left: 10rem;
+}
+
+
+.jesus {
+    overflow: hidden;
+}
+  
+.filterDiv {
+    float: left;
+    margin: 2px;
+    display: none; 
+
+}
+  
+  /* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+  
+  /* Style the buttons */
+.sam {
+    border: none;
+    outline: none;
+}
+  
+  /* Add a light grey background on mouse-over */
+.sam:hover {
+    background-color: black;
+}
+  
+  /* Add a dark background to the active button */
+.sam.active {
+    /* background-color: #666; */
+    color: white;
+}
+
+.carousel-inner{
+    height: 100vh;
+}
+
+@media(max-width: 1399.98px){
+    .carousel-inner{
+        height: 100vh;
+    }
+}
+@media(max-width: 1199.98px){}
+@media(max-width: 991.98px){
+    .navbar .nav-item .nav-link{
+        color: black;
+        font-size: 1rem;
+        font-weight: 400;
+        /* padding-left: 2.3rem; */
+    }
+    .navbar{
+        background: white;
+        box-shadow: 1px 2px 2px 2px 1px solid silver;
+        padding: 0rem;
+    }
+    .carousel-inner{
+        height: 60vh;
+    }
+}
+@media(max-width:767.98px){
+    .navbar .nav-item .nav-link{
+        color: black;
+        font-size: 1rem;
+        font-weight: 400;
+        /* padding-left: 2.3rem; */
+    }
+    .navbar{
+        background: white;
+        box-shadow: 1px 2px 2px 2px 1px solid silver;
+        padding: 0rem;
+    }
+    /* mt-5 mb-5  */
+    .carousel-inner{
+        height: 50vh;
+    }
+
+
+}
+@media(max-width: 575.68){
+    .navbar .nav-item .nav-link{
+        color: black;
+        font-size: 1rem;
+        font-weight: 400;
+        /* padding-left: 2.3rem; */
+    }
+    .navbar{
+        background: white;
+        box-shadow: 1px 2px 2px 2px 1px solid silver;
+        padding: 0rem;
+    }
+    .carousel-inner{
+        height: 50vh;
+    }
+
+}
+@media(max-width: 480){
+    .navbar .nav-item .nav-link{
+        color: black;
+        font-size: 1rem;
+        font-weight: 400;
+        /* padding-left: 2.3rem; */
+    }
+    .navbar{
+        background: white;
+        box-shadow: 1px 2px 2px 2px 1px solid silver;
+        padding: 0rem;
+    }
+    .navbar .navbar-brand img{
+        width: 1rem;
+        padding-right: 0rem;
+    }
+    .carousel-inner{
+        height: 50vh;
+    }
+}
